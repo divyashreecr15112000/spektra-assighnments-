@@ -1,0 +1,28 @@
+
+<form>
+    <select (change)="setvalue($event)">
+        <option value="canada">  canada </option>
+        <option value="us">  us </option>
+        <option value="india"> india  </option>
+    </select> 
+    
+    </form>
+    <div [ngSwitch]="selected">
+        <div *ngSwitchCase="'us'">
+            your country is us 
+        </div>
+
+        <div *ngSwitchCase="'canada'">
+            your country is canada
+        </div>
+
+        <div *ngSwitchCase="'india'">
+            your country is india 
+        </div>
+
+        <div *ngSwitchDefault>
+            please select a country
+        </div>
+    </div>
+
+    

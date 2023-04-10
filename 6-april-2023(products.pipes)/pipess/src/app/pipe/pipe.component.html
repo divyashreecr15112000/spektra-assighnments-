@@ -1,0 +1,19 @@
+<h1> this is about pipes </h1>
+
+Date:{{datetoday}} <br><br>
+date pipe:{{datetoday | date | uppercase }} <br><br>
+date pipe:{{datetoday | date | lowercase }} <br><br>
+
+
+name: {{name | uppercase}} <br><br>
+name: {{name | lowercase}} <br><br>
+name: {{name | slice:3}} <br><br>
+
+sen:{{sen | titlecase}} <br><br>
+
+<h2>{{ 0.25 | percent}} </h2>
+
+<h2>{{ 7.25 | currency}} </h2>
+
+<h2>{{ 40 | currency:'INR'}} </h2>
+

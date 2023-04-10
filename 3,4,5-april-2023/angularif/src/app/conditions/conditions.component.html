@@ -1,0 +1,14 @@
+
+<form>
+<input type="radio" value="valid" name="option" (click)="onselect('valid')" > valid 
+<input type="radio" value="invalid" name="option" (click)="onselect('invalid')">invalid
+</form>
+<div *ngIf="selectoption">
+    <div *ngIf="selectoption ==='valid'">
+        <p> your data is valid </p>
+    </div>
+    <div *ngIf="selectoption ==='invalid'">
+        <p> your data is invalid </p>
+    </div>
+</div>
+

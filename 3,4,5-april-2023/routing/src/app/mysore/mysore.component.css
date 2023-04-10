@@ -1,0 +1,14 @@
+body{
+    background-color:tan;
+}
+table{
+    border:1px solid black;
+}
+th{
+    border:1px solid black;
+    padding:20px;
+}
+td{
+    border:1px solid black;
+    padding:10px;
+}
