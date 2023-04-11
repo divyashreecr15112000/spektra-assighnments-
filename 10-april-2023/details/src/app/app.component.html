@@ -1,0 +1,27 @@
+<body>
+  <h1> WELCOME TO SJCE ,MYSORE  </h1>
+  <img src="https://th.bing.com/th?id=OIP.6owpOnEcOhHNmucYcDy3twAAAA&w=188&h=119&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" />
+  <h2> click on display to get information of the students </h2>
+<button (click)=" displaystudent()"> display </button>
+<table>
+  <thead>
+    <tr>
+      <th>studentid</th>
+      <th>studentname</th>
+      <th>email</th>
+      <th> contact </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of students">
+      <td>{{student.studentid}}</td>
+      <td>{{student.studentname}}</td>
+      <td> {{student.email}} </td>
+      <td> {{student.contact}} </td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+
+

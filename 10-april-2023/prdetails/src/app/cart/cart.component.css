@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+
+  }
+  
+  
+  table thead th {
+    background-color:darkcyan;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  
+
+  table tbody tr:nth-child(odd) {
+    background-color:cornflowerblue;
+  }
+  
+
+  table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  table tfoot td {
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  
+  table {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+ 
+  table.table-success {
+    background-color: #dff0d8;
+  }
+  
+
+  table tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  h2{
+    text-align:center;
+  }
+  div {
+    text-align: center;
+  }
+  

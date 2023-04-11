@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+ 
+  table thead th {
+    background-color:darkkhaki;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  
+ 
+
+  table td {
+   
+    padding: 10px;
+    border:1px solid black;
+  }
+  
+
+  table tfoot td {
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
+  }
+  
+
+  table {
+    width: 700px;
+    margin: 0 auto;
+  }
+  
+
+  table tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  
+  h2{
+    text-align: center;
+  }
+  
+  div {
+    text-align: center;
+  }
+ 

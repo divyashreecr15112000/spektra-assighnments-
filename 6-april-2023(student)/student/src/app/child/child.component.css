@@ -1,0 +1,23 @@
+body{
+  background-color:darksalmon;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+thead {
+  background-color:black;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+}
